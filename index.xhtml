@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US">
     <head>
         
-        <style type="text/css">@import url(&quot;GameBoy.css&quot;);</style>
+        <style type="text/css">@import url(&quot;css/GameBoy.css&quot;);</style>
         <script type="text/javascript">
     var DEBUG_MESSAGES = false;
     var DEBUG_WINDOWING = false;
@@ -11,17 +11,17 @@
         windowingInitialize();
     }
         </script>
-        <script type="text/javascript" src="windowStack.js"/>
-        <script type="text/javascript" src="terminal.js"/>
-        <script type="text/javascript" src="gui.js"/>
-        <script type="text/javascript" src="base64.js"/>
-        <script type="text/javascript" src="json2.js"/>
-        <script type="text/javascript" src="swfobject.js"/>
-        <script type="text/javascript" src="resampler.js"/>
-        <script type="text/javascript" src="XAudioServer.js"/>
-        <script type="text/javascript" src="resize.js"/>
-        <script type="text/javascript" src="GameBoyCore.js"/>
-        <script type="text/javascript" src="GameBoyIO.js"/>
+        <script type="text/javascript" src="js/other/windowStack.js"/>
+        <script type="text/javascript" src="js/other/terminal.js"/>
+        <script type="text/javascript" src="js/other/gui.js"/>
+        <script type="text/javascript" src="js/other/base64.js"/>
+        <script type="text/javascript" src="js/other/json2.js"/>
+        <script type="text/javascript" src="js/other/swfobject.js"/>
+        <script type="text/javascript" src="js/other/resampler.js"/>
+        <script type="text/javascript" src="js/other/XAudioServer.js"/>
+        <script type="text/javascript" src="js/other/resize.js"/>
+        <script type="text/javascript" src="js/GameBoyCore.js"/>
+        <script type="text/javascript" src="js/GameBoyIO.js"/>
         <title>GameBoy Online</title>
     </head>
     <body>
@@ -52,7 +52,7 @@
     
                 <p>Modified by Team Penta</p>
         
-                <p>This is a GameBoy Color emulator written purely in JavaScript by Grant Galitz.</p><p>The graphics blitting is done through HTML5 canvas, with the putImageData and drawImage functions.</p><p>Save states are implemented through the window.localStorage object, and are serialized/deserialized through JSON. SRAM saving is also implemented through the window.localStorage object, and are serialized/deserialized through JSON. In order for save states to work properly on most browsers, you need set the maximum size limit for DOM storage higher, to meet the needs of the emulator's save data size.</p><p>For more information about this emulator and its source code, visit the GIT repository at: <a href="https://github.com/taisel/GameBoy-Online" target="_blank">https://github.com/taisel/GameBoy-Online</a>.
+                <p>This is a modified version of GameBoy Online that was made to match the appearance of Penta-SWF.</p><p>All credit goes to taisel, we just modified it.</p><p>For the original source code, visit his repository at: <a href="https://github.com/taisel/GameBoy-Online" target="_blank">https://github.com/taisel/GameBoy-Online</a>.
                 </p>
             </div>
             <div class="button_rack">
